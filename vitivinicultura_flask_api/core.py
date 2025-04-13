@@ -240,7 +240,9 @@ def extract_interval_and_submit(url, year_to_submit, option=None):
             submit_response = requests.post(url, data=form_data)
             if submit_response.status_code == 200:
                 print("Formulário submetido com sucesso!")
-                return submit_response
+                soup = BeautifulSoup(submit_response.text, "html.parser")
+                return soup
+            
             else:
                 print("Erro ao submeter o formulário:", submit_response.status_code)
                 return None
@@ -254,10 +256,5 @@ def extract_interval_and_submit(url, year_to_submit, option=None):
 
 if __name__ == "__main__":
     #(url, table_class=None, button_opt=None, input_year_value=None)
-    r = crawler_wine_table(links[1],"tb_base tb_dados","subopt_02", 2020)
+    r = crawler_wine_table(links[3],"tb_base tb_dados","subopt_03")
     print(r)
-    # Exemplo de uso
-    # url = links[3]
-    # ano_para_submeter = 1970  # Ano a ser submetido
-    # response = extract_interval_and_submit(url, ano_para_submeter)
-    # soup = BeautifulSoup(response.text, "html.parser")
