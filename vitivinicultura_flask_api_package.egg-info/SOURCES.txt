@@ -1,0 +1,10 @@
+README.md
+setup.py
+tests/test_core.py
+vitivinicultura_flask_api/__init__.py
+vitivinicultura_flask_api/core.py
+vitivinicultura_flask_api/utils.py
+vitivinicultura_flask_api_package.egg-info/PKG-INFO
+vitivinicultura_flask_api_package.egg-info/SOURCES.txt
+vitivinicultura_flask_api_package.egg-info/dependency_links.txt
+vitivinicultura_flask_api_package.egg-info/top_level.txt

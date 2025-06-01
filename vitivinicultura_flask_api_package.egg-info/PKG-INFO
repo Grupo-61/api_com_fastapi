@@ -1,0 +1,48 @@
+Metadata-Version: 2.4
+Name: vitivinicultura_flask_api-package
+Version: 1.0.0
+Summary: Descricao da sua lib vitivinicultura_flask_api
+Home-page: https://github.com/ordepzero/vitivinicultura_flask_api
+Author: Pedro Ulisses
+Author-email: ulissesph@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary
+
+# Vitivinicultura_flask_api
+
+A simple example library.
+
+## Installation
+
+```sh
+pip install vitivinicultura_flask_api
+```
+
+## Usage
+
+```python
+from vitivinicultura_flask_api import hello_world
+
+print(hello_world())
+```
+
+install beatifulsoap
+$ pip install beautifulsoup4
+
+Install requests
+
+
+Armazenar ou não valores nulos?
+Como deve ser o retorno da api em caso de sucesso?
+Como deve ser o retorno da api em caso de falha?
+
+
+link de praticas de APIs
+- https://dev.to/biswajitfsd/mastering-rest-api-best-practices-in-python-5bda
